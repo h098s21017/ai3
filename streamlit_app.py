@@ -70,7 +70,7 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     # 예)
     # "짬뽕": {
-    #   "texts": ["고세구는", "'고양이가 세상을 구한다'의", "줄임말입니다."],
+    #   "texts": ["고세구는", "고양이가 세상을 구한다의", "줄임말입니다."],
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/ojkR-iy9y9M"]
     # },
