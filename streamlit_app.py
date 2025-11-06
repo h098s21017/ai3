@@ -70,9 +70,14 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     # 예)
     # "짬뽕": {
-    #   "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
+    #   "texts": ["고세구는", "'고양이가 세상을 구한다'의", "줄임말입니다."],
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
-    #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
+    #   "videos": ["https://youtu.be/ojkR-iy9y9M"]
+    # },
+     labels[0]: {
+       "texts": ["고세구는", "고양이가 세상을 구한다", "줄임말입니다."],
+       "images": ["https://event.img.sooplive.co.kr/bora/event/2025/06/16/5623684f75ef5c2bd.png"],
+       "videos": ["https://youtu.be/ojkR-iy9y9M"]
     # },
 }
 
